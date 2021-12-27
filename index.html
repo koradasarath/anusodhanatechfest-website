@@ -956,9 +956,7 @@
         document.getElementById("photo").onclick=()=>window.open(photographyUrl,"_blank");
         
 
-        [...document.getElementsByClassName('RegisterBtn')].forEach(e =>
-            e.onclick = () => window.open(registerUrl, '_blank'));
-
+      
         [...document.getElementsByClassName('dateEvent')].forEach(e => {
             e.innerHTML = eventDate;
         });
